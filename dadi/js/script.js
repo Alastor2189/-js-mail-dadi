@@ -9,11 +9,11 @@ console.log(numberCpu);
 
 let result
 if (numberuserOne > numberCpu) {
-    result = "Vittoria";
-    console.log("Vittoria");
+    result = "Vittoria User";
+    console.log("Vittoria User");
 } else if (numberCpu > numberuserOne) {
-    result = "Sconfitta";
-    console.log("Sconfitta");
+    result = "Vittoria Cpu";
+    console.log("Vittoria Cpu");
 
 } else if (numberCpu === numberuserOne) {
     result = "Pareggio";
